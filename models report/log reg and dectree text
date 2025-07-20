@@ -1,0 +1,109 @@
+Classification Report: Logistic Regression
+
+Performance Metrics:
+
+Class 0:
+
+Precision: 1.00
+
+Recall: 1.00
+
+F1-Score: 1.00
+
+Support: 380
+
+Class 1:
+
+Precision: 1.00
+
+Recall: 1.00
+
+F1-Score: 1.00
+
+Support: 61
+
+Overall Metrics:
+
+Accuracy: 1.00
+
+Macro Average Precision: 1.00
+
+Macro Average Recall: 1.00
+
+Macro Average F1-Score: 1.00
+
+Weighted Average Precision: 1.00
+
+Weighted Average Recall: 1.00
+
+Weighted Average F1-Score: 1.00
+
+ROC AUC Score: 1.0
+
+Confusion Matrix:
+
+True Negative (Actual 0, Predicted 0): 380
+
+False Positive (Actual 0, Predicted 1): 0
+
+False Negative (Actual 1, Predicted 0): 0
+
+True Positive (Actual 1, Predicted 1): 61
+
+
+Classification Report: Decision Tree
+
+Performance Metrics:
+
+Class 0:
+
+Precision: 1.00
+
+Recall: 1.00
+
+F1-Score: 1.00
+
+Support: 380
+
+Class 1:
+
+Precision: 1.00
+
+Recall: 1.00
+
+F1-Score: 1.00
+
+Support: 61
+
+Overall Metrics:
+
+Accuracy: 1.00
+
+Macro Average Precision: 1.00
+
+Macro Average Recall: 1.00
+
+Macro Average F1-Score: 1.00
+
+Weighted Average Precision: 1.00
+
+Weighted Average Recall: 1.00
+
+Weighted Average F1-Score: 1.00
+
+ROC AUC Score: 1.0
+
+Confusion Matrix:
+
+True Negative (Actual 0, Predicted 0): 380
+
+False Positive (Actual 0, Predicted 1): 0
+
+False Negative (Actual 1, Predicted 0): 0
+
+True Positive (Actual 1, Predicted 1): 61
+
+Summary:
+
+Both Logistic Regression and Decision Tree models achieved perfect performance on the test set. They both correctly classified all instances, with 100% precision, recall, F1-score, and accuracy. The confusion matrices show no misclassifications, and the ROC AUC score is 1.0 for both models. These results may indicate a highly separable dataset or potential overfitting, and further validation is recommended.
+
