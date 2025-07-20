@@ -2,17 +2,16 @@ HR-Analytics---Predict-Employee-Attrition
 A comprehensive HR Analytics project to explore, model, and visualize employee attrition patterns using Python, SHAP, and Power BI.
 
 📁 Repository Structure
-data/ – HR dataset (CSV)
-
-notebooks/ – Jupyter/Colab notebooks for EDA and modeling
-
-visuals/ – Power BI dashboards and plots
-
-reports/ – Final PDF reports and findings
-
-shap_analysis/ – SHAP plots for interpretability
-
+datasets – HR cleaned dataset,employee attrition dataset
+colab_employee_attrition.ipynb – Jupyter/Colab notebooks for EDA and modeling
+attrition-powerbi-dasboard – Power BI dashboards and plots
+Hr attrition project report – Final PDF reports and findings
+shap – SHAP plots for interpretability
 README.md – Project documentation
+models-attrition model1.pkl,attrition model2.pkl
+models report-com
+
+
 
 🧰 Tools & Technologies
 Python: Pandas, Seaborn, Matplotlib, Scikit-learn
